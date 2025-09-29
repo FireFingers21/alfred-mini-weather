@@ -2,50 +2,48 @@
 
 [[ "$(jq '.items[].error' <<< ${weather})" == "1" ]] && echo "${weather}" && exit
 
-weather=$(echo ${weather} | sed 's/, , /\n/g')
-data="$(rs -c, -C, -T <<< "${${weather// /}//, /,}")"
-currentWeather="$(tail -n 1 <<< "${${weather// /}//, /,}")"
+iconArr='["Clear","Partly Cloudy","Haze","Fog","Windy","Cloudy","Thunderstorm","Rain","Heavy Rain","Drizzle","Snow","Heavy Snow","Freezing Rain"]'
 iconDict='[
     {"Mostly Clear": "Clear"},
     {"Breezy": "Windy"},
     {"Mostly Cloudy": "Cloudy"},
     {"Freezing Drizzle": "Drizzle"},
-    {"Blizzard": "Heavy snow"},
+    {"Blizzard": "Heavy Snow"},
     {"Sleet": "Freezing Rain"},
     {"Wintry Mix": "Freezing Rain"},
     {"Mostly Clear (night)": "Clear (night)"}
 ]'
 nightDict='["Clear","Drizzle","Partly Cloudy"]'
-# Background Hex code: #66BBFF
 
-jq -Rn \
-   --arg currentWeather "${currentWeather//$'\n'/,}" \
+jq --argjson iconArr "${iconArr}" \
    --argjson iconDict "${iconDict}" \
    --argjson nightDict "${nightDict}" \
-'
-  ($currentWeather / ",,") as $currWttr | { "items":
-    [ inputs
-      | . / ","
-      | (($iconDict[].[.[3]] | select(. != null)) // .[3]) as $equivIcon
-      | (($nightDict[] | select(. == $equivIcon) | true) // false) as $iconHasNight
-      | ( ((.[5] | tonumber) <= ($currWttr[6] | tonumber)) or ((.[5] | tonumber) > ($currWttr[8] | tonumber)) ) as $isNightTime
-      | {
-        "title": "\( (.[4] | sub("(?<x>1.*)";"\(.x) ")))        \(.[0])",
+'.[] | (.condition, .temp, .feelsLike, .hours12, .hours24, .pChance) |= split("\n") |
+    .current as $current | .current |= empty |
+    [ to_entries[] | [.value[]] ] | transpose |
+    { items: map({
+        "title": "\( (.[3] | sub("(?<x>1.*)";"\(.x) ")))        \(.[1])",
         "subtitle": (
-            "☂ "+((.[2]|tonumber)*100 | floor | tostring | .+"%"+(3-length)*"  ") +
-            (" "*13)+"Feels like: "+(.[1] | .+(5-length)*" ") +
-            (" "*8)+.[3]
+            "☂ "+((.[5]|sub(",";".")|tonumber*100|floor|tostring) | .+"%"+(3-length)*"  ") +
+            (" "*13)+"Feels like: "+(.[2] | .+(5-length)*" ") +
+            (" "*8)+.[0]
         ),
         "valid": false,
-        "icon": { "path": "images/\(if ($iconHasNight and $isNightTime) then $equivIcon+" (night)" else $equivIcon end).png" }
+        "icon": {
+            "path": (
+                (($iconDict[].[.[0]] | select(. != null)) // .[0]) as $equivIcon |
+                (($nightDict[] | select(. == $equivIcon) | true) // false) as $iconHasNight |
+                ( ((.[4] | tonumber) <= ($current[6] | tonumber)) or ((.[4] | tonumber) > ($current[8] | tonumber)) ) as $isNightTime |
+                (if ($iconHasNight and $isNightTime) then $equivIcon+" (night)" else $equivIcon end) as $equivIconNight |
+                "images/\(if ($iconArr | index($equivIcon)) then $equivIconNight else "66BBFF" end).png"
+            )
+        }
+    })} | [
+      {
+        "title": "\($current[2]) \($current[3]), \($current[4])",
+        "subtitle": "H:\($current[0])  L:\($current[1])        ☀︎ \($current[5])    ☾ \($current[7])",
+        "valid": false,
+        "icon": { "path": "images/Location.png" }
       }
-    ]
-  } | [
-    {
-      "title": "\($currWttr[2]) \($currWttr[3]), \($currWttr[4])",
-      "subtitle": "H:\($currWttr[0])  L:\($currWttr[1])        ☀︎ \($currWttr[5])    ☾ \($currWttr[7])",
-      "valid": false,
-      "icon": { "path": "images/Location.png" }
-    }
-  ] + .items | .[1].title |= sub(.[0:5]; "Now   ") | { "items": . }
-' <<< "${data}"
+    ] + .items | .[1].title |= sub(.[0:5]; "Now   ") | { "items": . }
+' <<< "${weather// /}"
