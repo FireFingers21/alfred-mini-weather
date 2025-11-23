@@ -923,11 +923,15 @@ EOB</string>
 
 View local weather information with the `wt` keyword. Select between hourly or daily forecasts.
 
-![Using the Mini Weather keyword](images/about/keyword.png)
+![Using the wt keyword](images/about/keyword.png)
 
 ![Viewing Hourly Forecast](images/about/hourly.png)
 
 ![Viewing Daily Forecast](images/about/daily.png)
+
+Append `::` to the configured [Keyword](https://www.alfredapp.com/help/workflows/inputs/keyword) to access troubleshooting actions, such as clearing the workflow's cache.
+
+![Other actions](images/about/otherActions.png)
 
 Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey/) as shortcuts for viewing each forecast type.</string>
 	<key>uidata</key>
