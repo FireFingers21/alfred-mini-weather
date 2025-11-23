@@ -1,34 +1,24 @@
 #!/bin/zsh --no-rcs
 
-# Check if Shortcut is installed and up to date
-if [[ -z "${loading}" ]]; then
-    scOutput="$(shortcuts run "Mini Weather" <<< "Version" | cat)"
-    if [[ -z "${scOutput}" ]]; then
-        title="Missing Mini Weather Shortcut"
-        subtitle="Press ↩ to install it"
-        action="install"
-    elif [[ "${scOutput}" != "${alfred_workflow_version}" ]]; then
-        title="Outdated Mini Weather Shortcut"
-        subtitle="Press ↩ to replace it"
-        action="install"
-    fi
+# Cache version check
+readonly version_file="${alfred_workflow_cache}/Version.json"
+if [[ "$(< ${version_file})" != "${alfred_workflow_version}" ]]; then
+    mkdir -p "${alfred_workflow_cache}"
+    scVersion="$(shortcuts run "Mini Weather" <<< "Version" > "${version_file}")"
 fi
 
-# List weather options
-cat << EOB
-{"variables": { "loading": 0 },
-"items": [
-	{
-		"title": "${title:=${forecast:=Hourly} Forecast}",
-		"subtitle": "${subtitle:=${loading:+Loading...}}",
-		"arg": "",
-		"valid": "${${loading///true}/true0/0}",
-		"variables": { "forecast": "${action:=${forecast}}" }
-	},
-	{
-		"title": "${${loading:=${${forecast/Hourly/Daily Forecast}:#Daily}}:#0}",
-		"arg": "",
-		"variables": { "forecast": "Daily" }
-	}
-]}
-EOB
+# Check if Shortcut is installed and up to date
+scVersion="$(< ${version_file})"
+if [[ -z "${scVersion}" ]]; then
+    jq -cn '{"items":[{"title":"Missing Mini Weather Shortcut","subtitle":"Press ↩ to install it","arg":"install"}]}'
+    exit
+elif [[ "${scVersion}" != "${alfred_workflow_version}" ]]; then
+    jq -cn '{"items":[{"title":"Outdated Mini Weather Shortcut","subtitle":"Press ↩ to replace it","arg":"install"}]}'
+    exit
+else
+    # List weather options
+    jq -cn '{"items": [
+    	{ "title":"Hourly Forecast", "arg":"Hourly" },
+    	{ "title":"Daily Forecast", "arg":"Daily" }
+    ]}'
+fi

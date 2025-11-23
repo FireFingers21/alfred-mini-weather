@@ -12,7 +12,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1494843D-B3D6-4F58-AF34-48719181CB76</string>
+				<string>F4BE449C-A219-4DC9-AF34-B9BA86136BB0</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -27,31 +27,6 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>F4BE449C-A219-4DC9-AF34-B9BA86136BB0</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<true/>
-			</dict>
-		</array>
-		<key>1494843D-B3D6-4F58-AF34-48719181CB76</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>2363A5B3-8588-4FDE-96AE-240D45AA0292</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>1A2973FD-9C2F-486E-86B2-F7887875E1D2</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -73,6 +48,18 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
+				<string>0265033C-7B70-48D4-91E8-40EFC0C12657</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2B8E680F-0DE6-45F3-88D7-0DA6809E8A7E</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
 				<string>87F2EB5E-C63D-49E1-A819-BED791065ECA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -85,34 +72,13 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>21D12905-77E9-4B8A-894B-96BACE663606</string>
+				<string>48F4A71A-C2BC-4903-80EE-069A6F5A2B7C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>60F065E1-73BA-4D92-BD9F-CD3FE7D28666</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
-		<key>21D12905-77E9-4B8A-894B-96BACE663606</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>B4AD0F73-A13A-4AE0-A6B9-B010916870AE</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
+				<key>sourceoutputuid</key>
+				<string>ABEA4697-F2BE-4135-AC4F-E4F715CE1F4D</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -132,11 +98,49 @@
 				<false/>
 			</dict>
 		</array>
+		<key>42B4131A-3473-45E7-A5C4-D505EED3842D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7F457A01-0FAB-4225-96E3-7A8D929C4A95</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>1A2973FD-9C2F-486E-86B2-F7887875E1D2</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>48F4A71A-C2BC-4903-80EE-069A6F5A2B7C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>40FEC60B-F0D5-4384-869F-47ED0FF520C5</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>42B4131A-3473-45E7-A5C4-D505EED3842D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<true/>
+			</dict>
+		</array>
 		<key>6D6A0117-60EA-4648-8928-8277DC0E0B0F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>A18F5E39-CDFB-40F3-B3DF-1BB0897BCB39</string>
+				<string>0265033C-7B70-48D4-91E8-40EFC0C12657</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -158,37 +162,40 @@
 				<false/>
 			</dict>
 		</array>
-		<key>A18F5E39-CDFB-40F3-B3DF-1BB0897BCB39</key>
+		<key>977675AD-755F-4EE3-84EE-F618B39D6EAC</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>21441F66-5643-47B5-8C70-2FDED312940D</string>
+				<string>92720CFF-2653-4DE0-96F6-9E5A7EE2857D</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>sourceoutputuid</key>
+				<string>8BF92979-3E8C-43C7-90B6-C5201DF0C6BC</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
-		</array>
-		<key>B4AD0F73-A13A-4AE0-A6B9-B010916870AE</key>
-		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>0265033C-7B70-48D4-91E8-40EFC0C12657</string>
+				<string>F0D15D7D-66BD-483F-A1B2-8FF8630CECA1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
+				<key>sourceoutputuid</key>
+				<string>F000AA1F-B514-44F9-9998-05E2CF51534F</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
 		</array>
+		<key>BA941465-66C3-4581-A085-8A16BF9A3F5C</key>
+		<array/>
 		<key>D5D5A98D-2C2A-4D4C-BE85-E7263261EA09</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>FD3E4444-9756-44CF-9307-1058E50B2C8F</string>
+				<string>48F4A71A-C2BC-4903-80EE-069A6F5A2B7C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -225,11 +232,11 @@
 				<false/>
 			</dict>
 		</array>
-		<key>FD3E4444-9756-44CF-9307-1058E50B2C8F</key>
+		<key>FC036EB0-8511-4858-AB28-53713D30FA6F</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>21441F66-5643-47B5-8C70-2FDED312940D</string>
+				<string>977675AD-755F-4EE3-84EE-F618B39D6EAC</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -283,65 +290,8 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>Mini Weather.shortcut</string>
-			</dict>
-			<key>inboundconfig</key>
-			<dict>
-				<key>externalid</key>
-				<string>installShortcut</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>87F2EB5E-C63D-49E1-A819-BED791065ECA</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
-				<false/>
-				<key>variables</key>
-				<dict>
-					<key>forecast</key>
-					<string>Hourly</string>
-					<key>hotkey</key>
-					<string>1</string>
-					<key>loading</key>
-					<string>0</string>
-				</dict>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
-			<key>uid</key>
-			<string>A18F5E39-CDFB-40F3-B3DF-1BB0897BCB39</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>unstackview</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.hidealfred</string>
-			<key>uid</key>
-			<string>BA941465-66C3-4581-A085-8A16BF9A3F5C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>externaltriggerid</key>
-				<string>listForecasts</string>
+				<string>showHourlyForecast</string>
 				<key>passinputasargument</key>
 				<false/>
 				<key>passvariables</key>
@@ -352,9 +302,65 @@
 			<key>type</key>
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
-			<string>2363A5B3-8588-4FDE-96AE-240D45AA0292</string>
+			<string>3991FA9F-A453-4D4F-BF26-12871B883B34</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>Hourly.sh</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Hourly Forecast</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>showHourlyForecast</string>
+				<key>usecustominputarg</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0265033C-7B70-48D4-91E8-40EFC0C12657</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -384,7 +390,46 @@
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
-			<string>1494843D-B3D6-4F58-AF34-48719181CB76</string>
+			<string>F4BE449C-A219-4DC9-AF34-B9BA86136BB0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>Mini Weather.shortcut</string>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>installShortcut</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>87F2EB5E-C63D-49E1-A819-BED791065ECA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>installShortcut</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>5EBCAB74-D3DF-49DE-B272-F1F38D359926</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -476,107 +521,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>runShortcut.js</string>
-				<key>type</key>
-				<integer>8</integer>
-			</dict>
-			<key>inboundconfig</key>
-			<dict>
-				<key>externalid</key>
-				<string>runShortcut</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>21D12905-77E9-4B8A-894B-96BACE663606</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>externaltriggerid</key>
-				<string>installShortcut</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<false/>
-				<key>workflowbundleid</key>
-				<string>self</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
-			<key>uid</key>
-			<string>5EBCAB74-D3DF-49DE-B272-F1F38D359926</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>alfredfiltersresults</key>
-				<false/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>0</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<false/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>{var:forecast}.sh</string>
-				<key>skipuniversalaction</key>
-				<true/>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string></string>
-				<key>type</key>
-				<integer>8</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>0265033C-7B70-48D4-91E8-40EFC0C12657</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
 						<key>inputstring</key>
-						<string>{var:forecast}</string>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>Hourly</string>
+						<key>outputlabel</key>
+						<string>Hourly</string>
+						<key>uid</key>
+						<string>2B8E680F-0DE6-45F3-88D7-0DA6809E8A7E</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
 						<key>matchcasesensitive</key>
 						<false/>
 						<key>matchmode</key>
@@ -588,11 +551,25 @@
 						<key>uid</key>
 						<string>8A6B3C4C-A9DC-4B71-94C4-0C4F20C88DB6</string>
 					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>Daily</string>
+						<key>outputlabel</key>
+						<string>Daily</string>
+						<key>uid</key>
+						<string>ABEA4697-F2BE-4135-AC4F-E4F715CE1F4D</string>
+					</dict>
 				</array>
 				<key>elselabel</key>
-				<string>run</string>
+				<string></string>
 				<key>hideelse</key>
-				<false/>
+				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.utility.conditional</string>
@@ -608,7 +585,7 @@
 				<array>
 					<dict>
 						<key>inputstring</key>
-						<string>{var:forecast}</string>
+						<string></string>
 						<key>matchcasesensitive</key>
 						<false/>
 						<key>matchmode</key>
@@ -636,71 +613,13 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
+				<key>unstackview</key>
 				<false/>
-				<key>variables</key>
-				<dict>
-					<key>weather</key>
-					<string>{query}</string>
-				</dict>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.utility.hidealfred</string>
 			<key>uid</key>
-			<string>B4AD0F73-A13A-4AE0-A6B9-B010916870AE</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>externaltriggerid</key>
-				<string>runShortcut</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
-			<key>uid</key>
-			<string>3991FA9F-A453-4D4F-BF26-12871B883B34</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string>{var:forecast}</string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>1</integer>
-						<key>matchstring</key>
-						<string>install</string>
-						<key>outputlabel</key>
-						<string>install</string>
-						<key>uid</key>
-						<string>1A2973FD-9C2F-486E-86B2-F7887875E1D2</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string></string>
-				<key>hideelse</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>F4BE449C-A219-4DC9-AF34-B9BA86136BB0</string>
+			<string>BA941465-66C3-4581-A085-8A16BF9A3F5C</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -739,7 +658,7 @@
 			<key>config</key>
 			<dict>
 				<key>externaltriggerid</key>
-				<string>listForecasts</string>
+				<string>showDailyForecast</string>
 				<key>passinputasargument</key>
 				<false/>
 				<key>passvariables</key>
@@ -750,31 +669,247 @@
 			<key>type</key>
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
-			<string>60F065E1-73BA-4D92-BD9F-CD3FE7D28666</string>
+			<string>7F457A01-0FAB-4225-96E3-7A8D929C4A95</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argument</key>
-				<string></string>
-				<key>passthroughargument</key>
+				<key>alfredfiltersresults</key>
 				<false/>
-				<key>variables</key>
-				<dict>
-					<key>forecast</key>
-					<string>Daily</string>
-					<key>hotkey</key>
-					<string>1</string>
-					<key>loading</key>
-					<string>0</string>
-				</dict>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Loading...</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>Daily.sh</string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Daily Forecast</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>showDailyForecast</string>
+				<key>usecustominputarg</key>
+				<true/>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.utility.argument</string>
+			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
-			<string>FD3E4444-9756-44CF-9307-1058E50B2C8F</string>
+			<string>48F4A71A-C2BC-4903-80EE-069A6F5A2B7C</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:forecast}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>install</string>
+						<key>outputlabel</key>
+						<string>install</string>
+						<key>uid</key>
+						<string>1A2973FD-9C2F-486E-86B2-F7887875E1D2</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string></string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>42B4131A-3473-45E7-A5C4-D505EED3842D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>rm -r "${alfred_workflow_cache}"</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>92720CFF-2653-4DE0-96F6-9E5A7EE2857D</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>{var:weather_keyword}::||{var:weather_keyword} ::</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>cat &lt;&lt; EOB
+{"items": [
+	{
+		"title": "Clear Cache",
+		"subtitle": "Delete cached weather data",
+		"variables": { "pref_id": "clear" }
+	},
+	{
+		"title": "Reinstall Shortcut",
+		"icon": { "path": "images/shortcuts.png" },
+		"variables": { "pref_id": "reinstall" }
+	}
+]}
+EOB</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>skipuniversalaction</key>
+				<true/>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string></string>
+				<key>type</key>
+				<integer>11</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>FC036EB0-8511-4858-AB28-53713D30FA6F</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:pref_id}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>clear</string>
+						<key>outputlabel</key>
+						<string>clear</string>
+						<key>uid</key>
+						<string>8BF92979-3E8C-43C7-90B6-C5201DF0C6BC</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string>{var:pref_id}</string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>reinstall</string>
+						<key>outputlabel</key>
+						<string>reinstall</string>
+						<key>uid</key>
+						<string>F000AA1F-B514-44F9-9998-05E2CF51534F</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>Browser</string>
+				<key>hideelse</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>977675AD-755F-4EE3-84EE-F618B39D6EAC</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>installShortcut</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<false/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>F0D15D7D-66BD-483F-A1B2-8FF8630CECA1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -802,20 +937,11 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>note</key>
-			<string>Show Forecast</string>
+			<string>Show Hourly Forecast</string>
 			<key>xpos</key>
-			<real>625</real>
+			<real>415</real>
 			<key>ypos</key>
-			<real>180</real>
-		</dict>
-		<key>1494843D-B3D6-4F58-AF34-48719181CB76</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>xpos</key>
-			<real>780</real>
-			<key>ypos</key>
-			<real>125</real>
+			<real>30</real>
 		</dict>
 		<key>20EEE453-CD03-4D2F-B137-04CC9DA149E2</key>
 		<dict>
@@ -824,40 +950,18 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>note</key>
 			<string>Main Action &amp; Keyword</string>
 			<key>xpos</key>
-			<real>180</real>
+			<real>175</real>
 			<key>ypos</key>
-			<real>165</real>
+			<real>180</real>
 		</dict>
 		<key>21441F66-5643-47B5-8C70-2FDED312940D</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<real>335</real>
+			<real>330</real>
 			<key>ypos</key>
 			<real>185</real>
-		</dict>
-		<key>21D12905-77E9-4B8A-894B-96BACE663606</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>Run Shortcut</string>
-			<key>xpos</key>
-			<real>425</real>
-			<key>ypos</key>
-			<real>180</real>
-		</dict>
-		<key>2363A5B3-8588-4FDE-96AE-240D45AA0292</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>Loading Screen</string>
-			<key>xpos</key>
-			<real>835</real>
-			<key>ypos</key>
-			<real>95</real>
 		</dict>
 		<key>3991FA9F-A453-4D4F-BF26-12871B883B34</key>
 		<dict>
@@ -866,40 +970,49 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>note</key>
 			<string>Reload on Error</string>
 			<key>xpos</key>
-			<real>835</real>
+			<real>695</real>
 			<key>ypos</key>
-			<real>245</real>
+			<real>30</real>
 		</dict>
 		<key>40FEC60B-F0D5-4384-869F-47ED0FF520C5</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>8</integer>
+			<integer>10</integer>
 			<key>xpos</key>
-			<real>970</real>
+			<real>635</real>
 			<key>ypos</key>
 			<real>210</real>
+		</dict>
+		<key>42B4131A-3473-45E7-A5C4-D505EED3842D</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>xpos</key>
+			<real>635</real>
+			<key>ypos</key>
+			<real>360</real>
+		</dict>
+		<key>48F4A71A-C2BC-4903-80EE-069A6F5A2B7C</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Show Daily Forecast</string>
+			<key>xpos</key>
+			<real>415</real>
+			<key>ypos</key>
+			<real>330</real>
 		</dict>
 		<key>5EBCAB74-D3DF-49DE-B272-F1F38D359926</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>8</integer>
+			<integer>10</integer>
 			<key>note</key>
 			<string>Install Shortcut</string>
 			<key>xpos</key>
-			<real>1025</real>
+			<real>695</real>
 			<key>ypos</key>
 			<real>180</real>
-		</dict>
-		<key>60F065E1-73BA-4D92-BD9F-CD3FE7D28666</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>8</integer>
-			<key>note</key>
-			<string>Loading Screen</string>
-			<key>xpos</key>
-			<real>425</real>
-			<key>ypos</key>
-			<real>315</real>
 		</dict>
 		<key>6D6A0117-60EA-4648-8928-8277DC0E0B0F</key>
 		<dict>
@@ -910,45 +1023,56 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>15</real>
+			<real>30</real>
 		</dict>
-		<key>87F2EB5E-C63D-49E1-A819-BED791065ECA</key>
+		<key>7F457A01-0FAB-4225-96E3-7A8D929C4A95</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>note</key>
+			<string>Reload on Error</string>
+			<key>xpos</key>
+			<real>695</real>
+			<key>ypos</key>
+			<real>330</real>
+		</dict>
+		<key>87F2EB5E-C63D-49E1-A819-BED791065ECA</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>10</integer>
+			<key>note</key>
 			<string>Install Shortcut</string>
 			<key>xpos</key>
-			<real>425</real>
+			<real>415</real>
 			<key>ypos</key>
-			<real>45</real>
+			<real>180</real>
 		</dict>
-		<key>A18F5E39-CDFB-40F3-B3DF-1BB0897BCB39</key>
+		<key>92720CFF-2653-4DE0-96F6-9E5A7EE2857D</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>8</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>260</real>
+			<real>695</real>
 			<key>ypos</key>
-			<real>45</real>
+			<real>500</real>
 		</dict>
-		<key>B4AD0F73-A13A-4AE0-A6B9-B010916870AE</key>
+		<key>977675AD-755F-4EE3-84EE-F618B39D6EAC</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>8</integer>
+			<integer>11</integer>
 			<key>xpos</key>
-			<real>565</real>
+			<real>555</real>
 			<key>ypos</key>
-			<real>210</real>
+			<real>535</real>
 		</dict>
 		<key>BA941465-66C3-4581-A085-8A16BF9A3F5C</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>8</integer>
+			<integer>10</integer>
 			<key>xpos</key>
-			<real>565</real>
+			<real>555</real>
 			<key>ypos</key>
-			<real>75</real>
+			<real>210</real>
 		</dict>
 		<key>D5D5A98D-2C2A-4D4C-BE85-E7263261EA09</key>
 		<dict>
@@ -959,7 +1083,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>300</real>
+			<real>330</real>
 		</dict>
 		<key>EDD031A8-2BBF-4315-A071-F01AAD200E18</key>
 		<dict>
@@ -968,25 +1092,36 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<key>xpos</key>
 			<real>30</real>
 			<key>ypos</key>
-			<real>165</real>
+			<real>180</real>
+		</dict>
+		<key>F0D15D7D-66BD-483F-A1B2-8FF8630CECA1</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<real>695</real>
+			<key>ypos</key>
+			<real>605</real>
 		</dict>
 		<key>F4BE449C-A219-4DC9-AF34-B9BA86136BB0</key>
 		<dict>
 			<key>colorindex</key>
 			<integer>8</integer>
 			<key>xpos</key>
-			<real>780</real>
+			<real>635</real>
 			<key>ypos</key>
-			<real>275</real>
+			<real>60</real>
 		</dict>
-		<key>FD3E4444-9756-44CF-9307-1058E50B2C8F</key>
+		<key>FC036EB0-8511-4858-AB28-53713D30FA6F</key>
 		<dict>
 			<key>colorindex</key>
-			<integer>8</integer>
+			<integer>11</integer>
+			<key>note</key>
+			<string>Configuration</string>
 			<key>xpos</key>
-			<real>260</real>
+			<real>415</real>
 			<key>ypos</key>
-			<real>330</real>
+			<real>515</real>
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
