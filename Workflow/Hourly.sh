@@ -35,7 +35,7 @@ jq --argjson iconArr "${iconArr}" \
                 (($nightDict[] | select(. == $equivIcon) | true) // false) as $iconHasNight |
                 ( ((.[4] | tonumber) <= ($current[6] | tonumber)) or ((.[4] | tonumber) > ($current[8] | tonumber)) ) as $isNightTime |
                 (if ($iconHasNight and $isNightTime) then $equivIcon+" (night)" else $equivIcon end) as $equivIconNight |
-                "images/\(if ($iconArr | index($equivIcon)) then $equivIconNight else "66BBFF" end).png"
+                "images/\(if ($iconArr | index($equivIcon)) then $equivIconNight else "77CCFF" end).png"
             )
         }
     })} | [
