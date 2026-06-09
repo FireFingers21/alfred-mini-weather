@@ -58,7 +58,8 @@ jq --argjson iconArr "${iconArr}" \
         "valid": false,
         "icon": {
             "path": (
-                (($iconDict[].[.[0]] | select(. != null)) // .[0]) as $equivIcon |
+                (.[0]) as $condition |
+                (($iconDict[].[$condition] | select(. != null)) // $condition) as $equivIcon |
                 "images/\(if ($iconArr | index($equivIcon)) then $equivIcon else "77CCFF" end).png"
             )
         }

@@ -57,7 +57,8 @@ jq --argjson iconArr "${iconArr}" \
         "valid": false,
         "icon": {
             "path": (
-                (($iconDict[].[.[0]] | select(. != null)) // .[0]) as $equivIcon |
+                (.[0]) as $condition |
+                (($iconDict[].[$condition] | select(. != null)) // $condition) as $equivIcon |
                 (($nightDict[] | select(. == $equivIcon) | true) // false) as $iconHasNight |
                 ( ((.[3] | gsub("[^0-9]";"") | tonumber) <= ($current[6] | tonumber)) or ((.[3] | gsub("[^0-9]";"") | tonumber) > ($current[8] | tonumber)) ) as $isNightTime |
                 (if ($iconHasNight and $isNightTime) then $equivIcon+" (night)" else $equivIcon end) as $equivIconNight |

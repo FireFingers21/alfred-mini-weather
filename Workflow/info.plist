@@ -259,37 +259,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>4</integer>
-				<key>hotmod</key>
-				<integer>1310720</integer>
-				<key>hotstring</key>
-				<string>H</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>2</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>6D6A0117-60EA-4648-8928-8277DC0E0B0F</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>externaltriggerid</key>
 				<string>showHourlyForecast</string>
 				<key>passinputasargument</key>
@@ -365,6 +334,37 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>4</integer>
+				<key>hotmod</key>
+				<integer>1310720</integer>
+				<key>hotstring</key>
+				<string>H</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6D6A0117-60EA-4648-8928-8277DC0E0B0F</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -397,26 +397,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>openwith</key>
-				<string></string>
-				<key>sourcefile</key>
-				<string>Mini Weather.shortcut</string>
-			</dict>
-			<key>inboundconfig</key>
-			<dict>
-				<key>externalid</key>
-				<string>installShortcut</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openfile</string>
-			<key>uid</key>
-			<string>87F2EB5E-C63D-49E1-A819-BED791065ECA</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>externaltriggerid</key>
 				<string>installShortcut</string>
 				<key>passinputasargument</key>
@@ -432,35 +412,6 @@
 			<string>5EBCAB74-D3DF-49DE-B272-F1F38D359926</string>
 			<key>version</key>
 			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>2</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>EDD031A8-2BBF-4315-A071-F01AAD200E18</string>
-			<key>version</key>
-			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -517,6 +468,55 @@
 			<string>20EEE453-CD03-4D2F-B137-04CC9DA149E2</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>openwith</key>
+				<string></string>
+				<key>sourcefile</key>
+				<string>Mini Weather.shortcut</string>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>installShortcut</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openfile</string>
+			<key>uid</key>
+			<string>87F2EB5E-C63D-49E1-A819-BED791065ECA</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>EDD031A8-2BBF-4315-A071-F01AAD200E18</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -581,6 +581,19 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>unstackview</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.hidealfred</string>
+			<key>uid</key>
+			<string>BA941465-66C3-4581-A085-8A16BF9A3F5C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>conditions</key>
 				<array>
 					<dict>
@@ -607,69 +620,6 @@
 			<string>alfred.workflow.utility.conditional</string>
 			<key>uid</key>
 			<string>40FEC60B-F0D5-4384-869F-47ED0FF520C5</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>unstackview</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.hidealfred</string>
-			<key>uid</key>
-			<string>BA941465-66C3-4581-A085-8A16BF9A3F5C</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>action</key>
-				<integer>0</integer>
-				<key>argument</key>
-				<integer>0</integer>
-				<key>focusedappvariable</key>
-				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>38</integer>
-				<key>hotmod</key>
-				<integer>1310720</integer>
-				<key>hotstring</key>
-				<string>J</string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>2</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
-			<key>uid</key>
-			<string>D5D5A98D-2C2A-4D4C-BE85-E7263261EA09</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>externaltriggerid</key>
-				<string>showDailyForecast</string>
-				<key>passinputasargument</key>
-				<false/>
-				<key>passvariables</key>
-				<true/>
-				<key>workflowbundleid</key>
-				<string>self</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.callexternaltrigger</string>
-			<key>uid</key>
-			<string>7F457A01-0FAB-4225-96E3-7A8D929C4A95</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -728,6 +678,56 @@
 			<string>48F4A71A-C2BC-4903-80EE-069A6F5A2B7C</string>
 			<key>version</key>
 			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>38</integer>
+				<key>hotmod</key>
+				<integer>1310720</integer>
+				<key>hotstring</key>
+				<string>J</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>2</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>D5D5A98D-2C2A-4D4C-BE85-E7263261EA09</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>showDailyForecast</string>
+				<key>passinputasargument</key>
+				<false/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>7F457A01-0FAB-4225-96E3-7A8D929C4A95</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1143,7 +1143,7 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 				<true/>
 			</dict>
 			<key>description</key>
-			<string></string>
+			<string>Keyword for viewing the Hourly and Daily Forecasts.</string>
 			<key>label</key>
 			<string>Mini Weather Keyword</string>
 			<key>type</key>
@@ -1152,6 +1152,8 @@ Configure the [Hotkeys](https://www.alfredapp.com/help/workflows/triggers/hotkey
 			<string>weather_keyword</string>
 		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>2025.11</string>
 	<key>webaddress</key>
